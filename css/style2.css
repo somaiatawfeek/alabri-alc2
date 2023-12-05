@@ -1,0 +1,96 @@
+body{
+    width: 100vw;
+}
+
+.company-info{
+    width: 100vw;
+}
+.background-div{
+ 
+
+    height: 140vh;
+
+}
+.text-right{
+    padding: 10%;
+}
+.our_teams{background-image: url("../images/y3.jpg");
+ 
+background-size: cover; 
+
+}
+  @media (min-width: 769px) {
+.our_teams {
+        background-image: url("../images/3.jpg");
+
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }.text-right {
+        padding: 5%;
+        padding-top: 1%;
+    }
+    .our_teams a{
+        margin-left: 15%;
+    }
+        .our_partners {
+            background-image: url("../images/2.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+           background-position: center;
+        }
+  }
+  @media (max-width: 768px) {
+    .background-div {
+     
+  
+     
+    background-size: cover;
+        }
+        .company-info {
+           
+           width: 80%; 
+          
+        }.our_service{
+             background-size: contain;
+            background-repeat: no-repeat;
+        }
+    .our_teams {
+        
+          background-image: url("../images/33.jpg");
+width: 100%;
+          background-size: contain;
+         background-repeat:no-repeat;
+padding:1px;
+      }
+      .team{
+        padding: 2px;
+        margin: 0px;
+      }.text-right {
+        padding: 5%;
+        padding-top: 1%;
+    }
+
+    .our_partners{
+        background-image: url("../images/2.jpg");
+             background-size: contain;
+            background-repeat:no-repeat;
+          background-color:rgb(29, 27, 27);
+            padding-top: 0px;
+            width: 100%;
+    }.partners{
+    padding-right: 5%;
+    margin-top: 0px;
+    }.text-right{
+        margin-top: 3px;
+       margin-right: 8%;
+       margin-bottom: 3%;
+    }
+  }
+ .row{
+    width: 100%;
+    margin: 0px;
+ }
+ .company-info{
+    width: 80%;
+ }
